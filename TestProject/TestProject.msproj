@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Code Manager.mmf">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Wildcards.wcd">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Referenced Files.rfs">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Input Manager1.ipm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Output Parameter Set1.ops">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Run Parameter Set1.rps">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Run Manager1.rmr">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>c8adb5ab-7499-404e-87fe-0261e50f5b60</ProjectGuid>
+    <RootNamespace>Application</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectFileVersion>2.9.0.1431</ProjectFileVersion>
+    <AllowDebugSymbols>true</AllowDebugSymbols>
+    <CoreType>Gen2</CoreType>
+    <Name>TestProject</Name>
+  </PropertyGroup>
+  <!--Default c++ setting-->
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.default.props" />
+  <!--Settings common to all target platform configurations-->
+  <PropertyGroup Label="Configuration">
+    <OutputPath>$(OutDir)</OutputPath>
+    <IntermediateOutputPath>$(OutDir)</IntermediateOutputPath>
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+    <Reserved>
+    </Reserved>
+  </PropertyGroup>
+  <!--Current c++ setting-->
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>$(AllowDebugSymbols)</DebugSymbols>
+    <OutputPath>$(OutDir)</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>$(AllowDebugSymbols)</DebugSymbols>
+    <OutputPath>$(OutDir)</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="$(RafmToolsPath)\TW.Rafm.targets" />
+    <Import Project="$(RafmToolsPath)\CompileLinkProperties.targets" />
+  </ImportGroup>
+</Project>

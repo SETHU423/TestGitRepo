@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# RiskAgility FM Solution File, Format Version 12.00
+VisualStudioVersion = 15.0.28307.1300
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FD178842-400C-46A2-9AFC-9FE11EBFF98C}") = "TestProject", "TestProject\TestProject.msproj", "{C8ADB5AB-7499-404E-87FE-0261E50F5B60}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C8ADB5AB-7499-404E-87FE-0261E50F5B60}.Release|x64.ActiveCfg = Release|x64
+		{C8ADB5AB-7499-404E-87FE-0261E50F5B60}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8A16C928-B6E6-44AF-939D-CC75E4CCE839}
+	EndGlobalSection
+EndGlobal
