@@ -22,6 +22,9 @@
     <Content Include="Code Manager.mmf">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Input Manager2.ipm">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Wildcards.wcd">
       <SubType>Content</SubType>
     </Content>
