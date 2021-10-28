@@ -28,6 +28,9 @@
     <Content Include="Input Manager3.ipm">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Input Manager4.ipm">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Wildcards.wcd">
       <SubType>Content</SubType>
     </Content>
