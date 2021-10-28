@@ -25,6 +25,9 @@
     <Content Include="Input Manager2.ipm">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Input Manager4.ipm">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Run Manager2.rmr">
       <SubType>Content</SubType>
     </Content>
@@ -69,7 +72,8 @@
     <UseOfMfc>false</UseOfMfc>
     <CharacterSet>MultiByte</CharacterSet>
     <PlatformToolset>v141</PlatformToolset>
-    <Reserved></Reserved>
+    <Reserved>
+    </Reserved>
   </PropertyGroup>
   <!--Current c++ setting-->
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
