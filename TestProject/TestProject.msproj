@@ -25,6 +25,9 @@
     <Content Include="Input Manager2.ipm">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Run Manager2.rmr">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Wildcards.wcd">
       <SubType>Content</SubType>
     </Content>
