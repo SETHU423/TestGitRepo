@@ -46,6 +46,9 @@
     <Content Include="Run Manager1.rmr">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Input Manager3.ipm">
+      <SubType>Content</SubType>
+    </Content>
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>c8adb5ab-7499-404e-87fe-0261e50f5b60</ProjectGuid>
@@ -66,8 +69,7 @@
     <UseOfMfc>false</UseOfMfc>
     <CharacterSet>MultiByte</CharacterSet>
     <PlatformToolset>v141</PlatformToolset>
-    <Reserved>
-    </Reserved>
+    <Reserved></Reserved>
   </PropertyGroup>
   <!--Current c++ setting-->
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
